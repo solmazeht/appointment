@@ -57,11 +57,11 @@ public class Doctor {
         return this;
     }
 
-    public List getAppoinments() {
+    public List getAppointments() {
         return appointments;
     }
 
-    public Doctor setAppoinments(List<Appointment> appointments) {
+    public Doctor setAppointments(List<Appointment> appointments) {
         this.appointments = appointments;
         return this;
     }

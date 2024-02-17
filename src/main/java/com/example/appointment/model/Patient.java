@@ -67,11 +67,11 @@ public class Patient {
         return this;
     }
 
-    public List<Appointment> getAppoinments() {
+    public List<Appointment> getAppointments() {
         return appointments;
     }
 
-    public Patient setAppoinments(List<Appointment> appointments) {
+    public Patient setAppointments(List<Appointment> appointments) {
         this.appointments = appointments;
         return this;
     }

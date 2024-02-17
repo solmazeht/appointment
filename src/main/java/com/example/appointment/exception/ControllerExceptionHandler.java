@@ -10,8 +10,8 @@ import java.util.Date;
 
 @ControllerAdvice
 public class ControllerExceptionHandler {
-    @ExceptionHandler(WrongAppoinmentTimeException.class)
-    public ResponseEntity<ErrorMessage> wrongAppoinmentTimeException(WrongAppoinmentTimeException ex, WebRequest request) {
+    @ExceptionHandler(WrongAppointmentTimeException.class)
+    public ResponseEntity<ErrorMessage> wrongAppoinmentTimeException(WrongAppointmentTimeException ex, WebRequest request) {
         ErrorMessage message = new ErrorMessage(
                 HttpStatus.BAD_REQUEST.value(),
                 new Date(),
